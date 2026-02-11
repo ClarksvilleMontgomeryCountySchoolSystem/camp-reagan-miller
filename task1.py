@@ -1,7 +1,7 @@
 def main():
     #Collect Input for each
     #Variable: first Prompt: Child's First Name:
-    
+    first = input("Child's First Name: ")
     #Variable: last Prompt: Child's Last Name:
     
     print(f"Camper's Name: {first} {last}")
