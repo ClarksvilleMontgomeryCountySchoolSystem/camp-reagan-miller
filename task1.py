@@ -25,11 +25,17 @@ def main():
     print(f"Phone Number: {phone}")
 
     #Variable: street Prompt: Street Address:
-    
+
+    print(f"Phone Number: {street}")
+
     #Variable: city Prompt: City:
-    
+
+    print(f"Phone Number: {city}")
+
     #Variable: state Prompt: State Abbreviation:
-    
+
+    print(f"Phone Number: {state}")
+
     #Variable: zip Prompt: Zip Code:
     
     print(f"Address:\n{street}\n{city}, {state} {zip}")
