@@ -4,7 +4,7 @@ def main():
     first = input("Child's First Name: ")
     #Variable: last Prompt: Child's Last Name:
     
-    last = input("Camper's Name: ")
+    last = input("Child's Last Name: ")
 
     #Variable: birth Prompt: In what year was {first} {last} born:
     
@@ -40,7 +40,7 @@ def main():
 
     #Variable: zip Prompt: Zip Code:
     
-    input(f"Address:\n{street}\n{city}, {state} {zip}")
+    zip = input(f"Address:\n{street}\n{city}, {state} {zip}")
 
 if __name__ == "__main__":
     main()
