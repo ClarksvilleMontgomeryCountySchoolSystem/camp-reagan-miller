@@ -40,7 +40,7 @@ def main():
 
     #Variable: zip Prompt: Zip Code:
     
-    zip = int(input(f"Zip Code:\n{street}\n{city}, {state} {zip}"))
+    zip = int(input(f"Zip Code: "))
 
 if __name__ == "__main__":
     main()
