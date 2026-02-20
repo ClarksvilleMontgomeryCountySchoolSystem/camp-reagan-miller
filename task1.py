@@ -4,41 +4,43 @@ def main():
     first = input("Child's First Name: ")
     #Variable: last Prompt: Child's Last Name:
     
-    print(f"Camper's Name: {first} {last}")
+    last = input("Camper's Name: ")
 
     #Variable: birth Prompt: In what year was {first} {last} born:
     
-    print(f"Birth Year: {birth}")
+    birth = input(f"Birth Year: ")
 
     #Variable: days Prompt: How many days will {first} attend?
     
-    print(f"Camp Duration: {days} days")
+    days = input(f"Camp Duration: days")
 
     #Variable: p_first Prompt: Parent's First Name:
-    
+
+    p_first = input(f"Parent's Name: ")
+
     #Variable: p_last Prompt: Parent's Last Name:
     
-    print(f"Parent's Name: {p_first} {p_last}")
+    p_last = input(f"Parent's Name: ")
 
     #Variable: phone Prompt: Parent's Phone #:
     
-    print(f"Phone Number: {phone}")
+    phone = input(f"Phone Number: ")
 
     #Variable: street Prompt: Street Address:
 
-    print(f"Phone Number: {street}")
+    street = input(f"Phone Number: ")
 
     #Variable: city Prompt: City:
 
-    print(f"Phone Number: {city}")
+    city = input(f"Phone Number: ")
 
     #Variable: state Prompt: State Abbreviation:
 
-    print(f"Phone Number: {state}")
+    state = input(f"Phone Number: ")
 
     #Variable: zip Prompt: Zip Code:
     
-    print(f"Address:\n{street}\n{city}, {state} {zip}")
+    input(f"Address:\n{street}\n{city}, {state} {zip}")
 
 if __name__ == "__main__":
     main()
