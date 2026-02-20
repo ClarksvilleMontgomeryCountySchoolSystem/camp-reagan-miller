@@ -8,11 +8,11 @@ def main():
 
     #Variable: birth Prompt: In what year was {first} {last} born:
     
-    birth = input(f"In what year was {first} {last} born: ")
+    birth = int(input(f"In what year was {first} {last} born: "))
 
     #Variable: days Prompt: How many days will {first} attend?
     
-    days = input(f"How many days will {first} attend? ")
+    days = int(input(f"How many days will {first} attend? "))
 
     #Variable: p_first Prompt: Parent's First Name:
 
@@ -24,7 +24,7 @@ def main():
 
     #Variable: phone Prompt: Parent's Phone #:
     
-    phone = input(f"Parent's Phone #: ")
+    phone = int(input(f"Parent's Phone #: "))
 
     #Variable: street Prompt: Street Address:
 
@@ -40,7 +40,7 @@ def main():
 
     #Variable: zip Prompt: Zip Code:
     
-    zip = input(f"Zip Code:\n{street}\n{city}, {state} {zip}")
+    zip = int(input(f"Zip Code:\n{street}\n{city}, {state} {zip}"))
 
 if __name__ == "__main__":
     main()
